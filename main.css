@@ -1,0 +1,54 @@
+body {
+  font-family: "Arial";
+  background-color: blue;
+  color: white;
+  padding: 30px;
+}
+
+p {
+  color: red;
+}
+
+.cool {
+  color: cyan;
+}
+
+.cooler {
+  color: magenta;
+}
+
+#coolest {
+  color: whitesmoke;
+  cursor: crosshair;
+}
+
+#link, #link:visited, #link:hover {
+  margin-top: 1000px;
+  padding-top: 1000px;
+  color: white;
+  text-decoration: none;
+}
+
+#link:hover
+{
+  cursor: col-resize;
+  color: blue;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex div.flexKid {
+  text-align: center;
+  /*flex: 1;*/
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 0;
+  border: solid red 1px;
+}
+
+.flex div {
+  flex-grow: 1;
+}
